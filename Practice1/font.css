@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "ComicN";
+    src: url(../fonts/ComicNeue-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "ComicN";
+    src: url(../fonts/ComicNeue-Bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+}

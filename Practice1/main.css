@@ -1,0 +1,102 @@
+@import "../Practice1/font.css";
+* {
+    margin: 0;
+    padding: 0;
+}
+p,li,span {
+    font-family: "ComicN";
+    font-weight: normal;
+    font-style: normal;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: "ComicN";
+    font-weight: bold;
+    font-style: normal;
+}
+body {
+    width: 100%;
+    background: #b3ffab; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #b3ffab, #12fff7); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #b3ffab, #12fff7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+ul {
+    list-style: none;
+}
+
+#layout1 {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+img {
+    width: 24px;
+}
+#main_icon {
+    width: 90px;
+}
+header {
+    grid-column: 1/4;
+    height: 100px;
+    /* Layout */
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+}
+.navigation {
+    display: flex;
+    justify-content: center;
+}
+.media {
+    display: flex;
+    justify-content: center;
+}
+.mainC {
+    padding-left: 20px;
+    display: flex;
+}
+.ic_media {
+    padding: 0 5px;
+}
+section {
+    grid-column: 1/4;
+    min-height : calc(100vh - 200px);
+    /* Layout */
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    align-items: center;
+}
+.iphone_img{
+    width: 400px;
+}
+.txt {
+    display: grid;
+    justify-content: center;
+    padding: 0 0 0 20px;
+}
+footer {
+    background-color: #12FFF7;
+    grid-column: 1/4;
+    height: 100px;
+    /* Layout */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding : 0 160px 0 20px;
+}
+.class1 {
+    justify-self: right;
+}
+.btn  {
+    width: 100px;
+    padding: 5px 10px;
+    border: 1px solid black;
+}
+.btn_green {
+    background-color: #88FCC1;
+    
+}
+.btn_blue {
+    background-color: #12FFF7;
+}
+#section1 {
+    line-height: 50px;
+}
